@@ -15,7 +15,7 @@
     <aside class="w-96 bg-white shadow-2xl flex flex-col z-20">
         <div class="bg-blue-900 text-white p-6">
                 <div class="flex items-center gap-3">
-                    <img src="{{ asset('img/logo.svg') }}" alt="Logo HidroGest" class="h-10 w-10">                    
+                    <img src="{{ asset('images/hidrogest.svg') }}" alt="Logo HidroGest" class="h-10 w-10">                    
                     <h1 class="text-2xl font-bold tracking-tight">HidroGest - Matamoros</h1>
                 </div>
                 <p class="text-blue-200 text-sm mt-1">Sistema Tecnológico para la Gestión del Servicio de Agua Potable</p>
