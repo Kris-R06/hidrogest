@@ -160,7 +160,7 @@ function mostrarGraficas(bomba) {
                 { label: 'Presión (PSI)', data: historial.map(r => r.presion || 0), borderColor: '#8b5cf6', yAxisID: 'y', tension: 0.3, borderWidth: 2 },
                 { label: 'Temperatura (°C)', data: historial.map(r => r.temp || 0), borderColor: '#ef4444', yAxisID: 'y', tension: 0.3, borderWidth: 2 },
                 { label: 'pH', data: historial.map(r => r.ph || 0), borderColor: '#10b981', yAxisID: 'y', tension: 0.3, borderWidth: 2 },
-                { label: 'Turbidez (NTU)', data: historial.map(r => r.turb || 0), borderColor: '#64748b', yAxisID: 'y', tension: 0.3, borderWidth: 2 }
+                { label: 'Turbierdad (NTU)', data: historial.map(r => r.turb || 0), borderColor: '#64748b', yAxisID: 'y', tension: 0.3, borderWidth: 2 }
             ]
         },
         options: {
