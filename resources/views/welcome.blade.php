@@ -44,8 +44,12 @@
                 <button onclick="cerrarPanel()" class="text-gray-500 hover:text-red-600 bg-gray-100 hover:bg-red-50 rounded-lg px-3 py-1 font-bold text-sm transition self-start">X Cerrar</button>
             </div>
             
-            <div class="bg-white p-2 rounded-lg border border-gray-200 shadow-sm w-full" style="height: 250px;">
+            <div class="bg-white p-2 rounded-lg border border-gray-200 shadow-sm w-full mb-3" style="height: 180px;">
                 <canvas id="chartGeneral"></canvas>
+            </div>
+
+            <div class="bg-white p-2 rounded-lg border border-gray-200 shadow-sm w-full" style="height: 140px;">
+                <canvas id="chartPPM"></canvas>
             </div>
 
         </div>
